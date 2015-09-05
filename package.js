@@ -15,8 +15,8 @@ Package.onUse(function(api) {
     'reactive-var',
     'templating',
     'less',
-    'aldeed:autoform@5.4.0',
-    'fortawesome:fontawesome@4.4.0'
+    'aldeed:autoform',
+    'fortawesome:fontawesome'
   ]);
 
   api.addFiles('lib/client/autoform-file.html', 'client');
